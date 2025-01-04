@@ -1,0 +1,1 @@
+!function(){"use strict";bit_page_lifecycle.addEventListener("statechange",(e=>{"hidden"!==e.newState&&"terminated"!==e.newState||Object.keys(window?.bf_globals||{}).forEach((async e=>{window.bf_globals[e]?.formSettings?.formAbandonment?.active&&saveFormProgress(e)}))}))}();

@@ -1,0 +1,9 @@
+
+            <IfDefine php_flag>
+                php_flag engine off
+            </IfDefine>
+            Options -Indexes
+            Order allow,deny
+            Deny from all
+            Require all denied
+            

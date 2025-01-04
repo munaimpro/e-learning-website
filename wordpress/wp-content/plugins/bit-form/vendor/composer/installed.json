@@ -1,0 +1,343 @@
+{
+    "packages": [
+        {
+            "name": "arif-un/jcof",
+            "version": "1.0.2",
+            "version_normalized": "1.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Arif-un/jcof-php.git",
+                "reference": "8d5596baeeef37b7e80e530730ed754cf36776f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Arif-un/jcof-php/zipball/8d5596baeeef37b7e80e530730ed754cf36776f4",
+                "reference": "8d5596baeeef37b7e80e530730ed754cf36776f4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.13",
+                "pestphp/pest": "^2.19",
+                "phpcompatibility/php-compatibility": "*",
+                "squizlabs/php_codesniffer": "*"
+            },
+            "time": "2023-09-27T10:46:27+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Jcof\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arif Uddin",
+                    "email": "arifunctg@gmail.com"
+                }
+            ],
+            "description": "Compress JSON in half",
+            "keywords": [
+                "jcof",
+                "json-compress",
+                "json-optimize"
+            ],
+            "support": {
+                "issues": "https://github.com/arif-un/jcof-php/issues",
+                "source": "https://github.com/arif-un/jcof-php"
+            },
+            "install-path": "../arif-un/jcof"
+        },
+        {
+            "name": "bitapps/wp-telemetry",
+            "version": "v0.0.9",
+            "version_normalized": "0.0.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Bit-Apps-Pro/wp-telemetry.git",
+                "reference": "6d9f5577396fe5e0ee96a7c9f05838d9f47e8721"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Bit-Apps-Pro/wp-telemetry/zipball/6d9f5577396fe5e0ee96a7c9f05838d9f47e8721",
+                "reference": "6d9f5577396fe5e0ee96a7c9f05838d9f47e8721",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "dev-master",
+                "pestphp/pest": "3.x-dev",
+                "phpcompatibility/php-compatibility": "*",
+                "squizlabs/php_codesniffer": "*"
+            },
+            "time": "2024-10-09T10:08:11+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "BitApps\\WPTelemetry\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "BitApps",
+                    "email": "developer@bitcode.pro"
+                }
+            ],
+            "description": "A simple telemetry library for WordPress.",
+            "homepage": "https://bitapps.pro",
+            "keywords": [
+                "telemetry",
+                "wordpress",
+                "wp"
+            ],
+            "support": {
+                "issues": "https://github.com/Bit-Apps-Pro/wp-telemetry/issues",
+                "source": "https://github.com/Bit-Apps-Pro/wp-telemetry"
+            },
+            "install-path": "../bitapps/wp-telemetry"
+        },
+        {
+            "name": "enshrined/svg-sanitize",
+            "version": "0.19.0",
+            "version_normalized": "0.19.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/darylldoyle/svg-sanitizer.git",
+                "reference": "e95cd17be68e45f523cbfb0fe50cdd891b0cf20e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/darylldoyle/svg-sanitizer/zipball/e95cd17be68e45f523cbfb0fe50cdd891b0cf20e",
+                "reference": "e95cd17be68e45f523cbfb0fe50cdd891b0cf20e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-libxml": "*",
+                "php": "^5.6 || ^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7 || ^6.5 || ^8.5"
+            },
+            "time": "2024-06-18T10:27:15+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "enshrined\\svgSanitize\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Daryll Doyle",
+                    "email": "daryll@enshrined.co.uk"
+                }
+            ],
+            "description": "An SVG sanitizer for PHP",
+            "support": {
+                "issues": "https://github.com/darylldoyle/svg-sanitizer/issues",
+                "source": "https://github.com/darylldoyle/svg-sanitizer/tree/0.19.0"
+            },
+            "install-path": "../enshrined/svg-sanitize"
+        },
+        {
+            "name": "typisttech/imposter",
+            "version": "0.6.1",
+            "version_normalized": "0.6.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TypistTech/imposter.git",
+                "reference": "f52b1a2289d2ea9c660cf9595085d0b11469af83"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TypistTech/imposter/zipball/f52b1a2289d2ea9c660cf9595085d0b11469af83",
+                "reference": "f52b1a2289d2ea9c660cf9595085d0b11469af83",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "codeception/codeception": "^4.1",
+                "codeception/mockery-module": "^0.4.0",
+                "codeception/module-asserts": "^1.3",
+                "codeception/module-filesystem": "^1.0",
+                "squizlabs/php_codesniffer": "^3.5"
+            },
+            "suggest": {
+                "typisttech/imposter-plugin": "Composer plugin to integrate composer and imposter"
+            },
+            "time": "2020-12-06T22:57:09+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.6.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "TypistTech\\Imposter\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Typist Tech",
+                    "email": "imposter@typist.tech",
+                    "homepage": "https://typist.tech"
+                },
+                {
+                    "name": "Tang Rufus",
+                    "email": "tangrufus@gmail.com",
+                    "homepage": "https://typist.tech",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Wrapping all composer vendor packages inside your own namespace. Intended for WordPress plugins.",
+            "homepage": "https://github.com/TypistTech/imposter",
+            "keywords": [
+                "composer",
+                "dependency",
+                "monkey-patching",
+                "namespace",
+                "wordpress"
+            ],
+            "support": {
+                "email": "imposter@typist.tech",
+                "issues": "https://github.com/TypistTech/imposter/issues",
+                "source": "https://github.com/TypistTech/imposter"
+            },
+            "funding": [
+                {
+                    "url": "https://typist.tech/donation/",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.paypal.me/iAmTangRufus/30usd",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/tangrufus",
+                    "type": "github"
+                }
+            ],
+            "install-path": "../typisttech/imposter"
+        },
+        {
+            "name": "typisttech/imposter-plugin",
+            "version": "0.6.2",
+            "version_normalized": "0.6.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TypistTech/imposter-plugin.git",
+                "reference": "15fa3c90aca3b79497f438b9e02a6176498de53c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TypistTech/imposter-plugin/zipball/15fa3c90aca3b79497f438b9e02a6176498de53c",
+                "reference": "15fa3c90aca3b79497f438b9e02a6176498de53c",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.1 || ^2.0",
+                "php": "^7.3 || ^8.0",
+                "typisttech/imposter": "^0.6.1"
+            },
+            "require-dev": {
+                "codeception/codeception": "^4.1",
+                "codeception/module-asserts": "^1.3",
+                "codeception/module-cli": "^1.1",
+                "codeception/module-filesystem": "^1.0",
+                "composer/composer": "^1.10.19 || ^2.0",
+                "squizlabs/php_codesniffer": "^3.5",
+                "typisttech/codeception-composer-project-module": "^0.1.1"
+            },
+            "time": "2020-12-06T23:41:30+00:00",
+            "type": "composer-plugin",
+            "extra": {
+                "class": "TypistTech\\Imposter\\Plugin\\ImposterPlugin",
+                "branch-alias": {
+                    "dev-master": "0.6.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "TypistTech\\Imposter\\Plugin\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Typist Tech",
+                    "email": "imposter-plugin@typist.tech",
+                    "homepage": "https://www.typist.tech"
+                },
+                {
+                    "name": "Tang Rufus",
+                    "email": "tangrufus@gmail.com",
+                    "homepage": "https://www.typist.tech",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Composer plugin that wraps all composer vendor packages inside your own namespace. Intended for WordPress plugins.",
+            "homepage": "https://github.com/TypistTech/imposter-plugin",
+            "keywords": [
+                "composer",
+                "composer-plugin",
+                "dependency",
+                "monkey-patching",
+                "namespace",
+                "wordpress"
+            ],
+            "support": {
+                "email": "imposter-plugin@typist.tech",
+                "issues": "https://github.com/TypistTech/imposter-plugin/issues",
+                "source": "https://github.com/TypistTech/imposter-plugin"
+            },
+            "funding": [
+                {
+                    "url": "https://typist.tech/donation/",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.paypal.me/iAmTangRufus/30usd",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/tangrufus",
+                    "type": "github"
+                }
+            ],
+            "install-path": "../typisttech/imposter-plugin"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

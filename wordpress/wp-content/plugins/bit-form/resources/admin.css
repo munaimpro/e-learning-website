@@ -1,0 +1,39 @@
+.bf-template-new-badge {
+  background-color: #d63638;
+  color: #ffffff;
+  padding: 3px;
+  border-radius: 5px;
+  font-size: 10px;
+}
+
+.bf-indicator-badge {
+  display: inline-block !important;
+  min-width: 18px !important;
+  height: 18px !important;
+  border-radius: 9px !important;
+  margin: 7px 0 0 2px !important;
+  vertical-align: top !important;
+  font-size: 11px !important;
+  line-height: 1.6 !important;
+  text-align: center !important;
+}
+
+.bf-pro-btn {
+  align-items: center !important;
+  background-color: rgb(78, 255, 191) !important;
+  border: none !important;
+  color: #161212 !important;
+  display: flex !important;
+  font-weight: 700 !important;
+  justify-content: center !important;
+  line-height: inherit !important;
+  text-align: center !important;
+  transition: background-color .1s linear !important;
+  white-space: break-spaces !important;
+  border-radius: 5px !important;
+  padding: 5px;
+}
+
+.bf-pro-btn:hover {
+  background-color: rgb(25, 231, 163) !important;
+}

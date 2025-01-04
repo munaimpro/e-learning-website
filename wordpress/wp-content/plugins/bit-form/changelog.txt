@@ -1,0 +1,967 @@
+= 2.12.2 =
+*Release Date: 15 June, 2024*
+*Improvement:
+    1. Includes an option to download necessary fonts for PDF attachments.
+
+= 2.12.1 =
+*Release Date: 08 June, 2024*
+*Feature:
+    1. Added Concat(Repeater) function to concatenate repeated field values in conditional logic.
+*Improvements:
+    1. Enhanced user experience in the Email and PDF template editor.
+    2. Improved field re-order functionality in Table and Mobile views.
+    3. Enabled date picker display on click for Date, datetime-local, month, time, and week fields.
+*Fix:
+    1. Fixed issue where the slider field fill color was not changing.
+    2. WooCommerce upload Field issue resolved.
+    3. Zoho Sign integration issue resolved.
+
+= 2.12.0 =
+*Release Date: 29 May, 2024*
+*Improvement:
+    1. Modify predefined custom JavaScript code.
+    2. Automate the Bit Form V1 form migration process.
+*Fix:
+    1. Resolve the issue with duplicate values in the checkbox field for email notifications.
+
+= 2.11.1 = 
+*Release Date: 06 May, 2024*
+*Improvement:
+    1. Include Order Id settings in Razorpay payment field.
+    2. Unique Entry validation settings added in the Phone number Field.
+    3. Conditional Logic action with Currency field.
+*Fix:
+    1. OneDrive integration issue resolved.
+    2. Dropbox blank screen issue resolved.
+
+= 2.11.0 =
+*Release Date: 18 April, 2024*
+*Feature: 
+    1. New Slider(range) field added.
+*Fix: 
+    1. ResolvedAPI issue with brevo integration.
+    2. Resolved Checkbox and radio field action issue in conversational form.
+
+
+= 2.10.3 =
+*Release Date: 01 April, 2024*
+*Improvement:
+    1. Added an advanced file upload field in the Field Map for ACF & Meta Box Integration.
+*Fix:
+    1. Resolved the touchpad issue for the Signature field on iPhone.
+    2. Fixed the Zoho Desk file attachment issue.
+
+= 2.10.2 =
+*Release Date: 10 March, 2024*
+*Improvement:
+    1. Dynamic field value set to Notes of Razorpay payment field.
+    2. Added new filter function for razorpay Notes.
+*Fix: 
+    1. Token Expired issue during file upload with Advanced File Upload field.
+    2. Blank screen issue during Email notification test.
+    3. security issue with "update_form_entry" route.
+    4. Unwanted draft entry creation issue when a abandoment form embedded in same page.
+
+= 2.10.1 =
+*Release Date: 15 February, 2024*
+*New: Added new Action hooks and Filter hooks for form validation
+*Fix:
+    1. Fixed vulnerability report issue with advanced file-up field.
+    2. Fixed Custom JS & CSS code duplication issue during form duplication.
+
+
+= 2.10.0 =
+*Release Date: 12 February, 2024*
+*Feature: Introducing Conversational Form: Easily convert your standard forms into conversational experiences with just one click.
+*Improvements:
+    1. Added missing functionality to automatically populate placeholders based on conditional logic onload.
+    2. Included missing Smart Tags (such as calc and count) in PHP.
+    3. Enabled workflow actions triggered upon form submission via API.
+*Fix:
+    1. Resolved issue with previous saved data initialization in WP Auth (Registration, Login, Forgot Password) Page.
+    2. Fixed problem with empty values in exported entries for file upload and signature fields.
+
+
+= 2.9.6 =
+*Release Date: 21 January, 2024*
+*Features:
+    1. Added new Action hooks and Filter hooks
+*Improvements:
+    1. Enhanced the UI of Form entries Related Info, displayed in the response details drawer..
+*Fix:
+    1. Resolved "between" logic issue in conditional logic.
+    2. Fixed PHP issue related to deprecated dynamic properties.
+    3. Fixed value check issue with HTML select field in conditional logic.
+
+= 2.9.5 =
+*Release Date: 11 January, 2024*
+*Improvements: User data security improved
+*Improvements: Plugin title & readme description updated
+
+= 2.9.4 =
+*Release Date: 03 January, 2024*
+*Improvements: Subfields included in the ACF Field Map for ACF Integration
+
+*Fix: Disable Action Issue in Conditional Logic for Image Select Field
+*Fix: Validation error for Instant File Upload with Advanced File Upload Field
+
+= 2.9.3 =
+*Release Date: 25 December, 2023*
+*Fix: Issue with saving import option settings for the Select Field and Checkbox Field.
+
+
+= 2.9.2 =
+*Release Date: 18 December, 2023*
+*Fix: Form not showing in the frontend issue for Bit form V1 users
+
+= 2.9.1 =
+*Release Date: 16 December, 2023*
+*Update: Some extra columns('Created Time, Modified Time, IP address, Refer URL, Device') added in the response table
+*Fix: Stripe payment charged multiple times for the same submission issue
+*Fix: Undefined property("$nestedLayout") PHP warning issue
+
+= 2.9.0 =
+*Release Date: 28 November, 2023*
+*Feature: Cloudflare Turnstile - protect your form from spam and bots with Cloudflare Turnstile captcha
+*Feature: Field input placeholder piping added in conditional logics
+*Fix: Forms not updating for type issue
+
+= 2.8.0 =
+*Release Date: 18 November, 2023*
+*Feature: Form Analytics Report / Visual Report - Analyze your entry submission stats with Pie Chart, Bar Chart, & Line Chart including advanced field reports.
+*Fix: Signature field in multi step form was not aligning correctly
+
+= 2.7.2 =
+*Release Date: 09 November, 2023*
+*Fix: Bit Form plugin name breaks the WordPress admin plugins page design
+
+= 2.7.1 =
+*Release Date: 09 November, 2023*
+*Fix: TinyMCE editor missing Smart Tags list
+*Fix: Groundhogg integration issue causing Bit Forms to not submit
+
+= 2.7.0 =
+*Release Date: 07 November, 2023*
+*Feature: Image Select Field - Visually apealing radio / checkbox style image select field
+*Fix: Active Campaign integrations issue for over 20 tags
+*Fix: Multi Step Form not submits if progress bar is hidden
+
+= 2.6.2 =
+*Release Date: 30 October, 2023*
+*Fix: Uploaded files from multi step form are not correctly showing in the entry list.
+
+= 2.6.1 =
+*Release Date: 23 October, 2023*
+*Fix: Form Preview not working issue.
+
+= 2.6.0 =
+*Release Date: 23 October, 2023*
+*Feature: Landing Page - Share the form with a distraction free page link, commonly named as: Standalone Form / Form Pages / Direct Share.
+*Feature: Form Preview - Preview your form changes from the builder without any short code or embedding into page.
+*Fix: Currency field options hide not working issue.
+*Fix: ACF integration not working in Bit Form FREE version.
+*Fix: Number field validation error if the value is 0.
+
+= 2.5.2 =
+*Release Date: 25 September, 2023*
+*Fix: Stripe payment not successful by missing description & shipping address for indian export transaction.
+
+= 2.5.1 =
+*Release Date: 19 Septermber, 2023*
+*Update: Multi Step form style editor reworked.
+*Fix: Telegram integration causing Bit Form to not submit.
+*Fix: Conditional Logic validation error for On Form Validated caused for Always action effect.
+*Fix: Phone number field country option hide not working.
+
+= 2.5.0 =
+*Release Date: 11 September, 2023*
+*Feature: Introducing the "Multi Step Form", convert your long boring forms into smaller steps to enhance your user's form experience, save progress on each step & show progress bar for a dynamic & easy to use contact form submission experience.
+*Update: Redirect page will now respect the delay of confirmation message duration.
+*Fix: Stripe payment transaction response not saving.
+
+= 2.4.1 =
+*Release Date: 03 September, 2023*
+*Feature: Introducing the Smart Tag "Date(YYYY-mm-dd)" to our smart tag list. Easily set current formatted date to date input.
+*Fixes:
+1. Resolved the pro-overlay issue on the option edit modal of Field Options.
+2. Fixed the blank screen issue that occurred when clicking on form entries in the response table. 
+
+= 2.4.0 =
+*Release Date: 23 August, 2023*
+*New Field: Rating Field - Collect feedbacks in the form of star ratings from your wp users. Change any star rating icon to your own custom icon with easy to use form builder settings.
+*Fixes:
+1. Active Campaign integration tag & list issue
+2. Form duplicate issue with the section & repeater field
+3. Response table issue with multiple uploaded files
+
+= 2.3.0 =
+*Release Date: 01 August, 2023*
+*New Field: Signature Field - Collect signatures from your wp users to store in DB as PNG, JPG or SVG and use it in the Email or PDF templates.
+*Feature: Piping - Use the form field values as the Label, Sub title & Helper text of other form fields via our advanced conditional logics to make your form more dynamic.
+*Fixes:
+1. Phone number field validation message issue of validate on focus out option
+2. Razorpay payment field triggers the form submit actions before the payment is completed
+3. Form is not saving by giving the error of Form is empty when the form has only the section fields (rather it has fields inside the section field)
+4. Dropdown field not selecting the options when user is not logged in because of the Comet Cache plugin
+
+= 2.2.3 =
+*Release Date: 25 July, 2023*
+*Fix: Bit Form crash issue
+
+= 2.2.2 =
+*Release Date: 23 July, 2023*
+*Fix: Rollback to previous version because of Bit Form crash issue
+
+= 2.2.1 =
+*Release Date: 23 July, 2023*
+*Fixes:
+1. Conditional logics for Validate on Focus Out option was not working properly
+2. Conditional Logics on select Form Validate option breaks the Bit Form
+3. Google ReCaptcha v3 script block issue for Borlabs Cookie plugin
+4. Form save issue for PDF attachment missing table issue
+5. Metabox integration field mapping breaks the form
+6. Double opt-in confirmation after form submit not working
+
+= 2.2.0 =
+*Release Date: 16 July, 2023*
+*New Field: 
+    1. Repeater Field - Group of form fields that can be repeated to create complex repeatable forms with ease. With conditional logics advanced calculator, creating a order or invoice type of forms including complex calculations is now easier than ever.
+
+*New Integrations:
+    1. FlowMattic Integration - Connect Bit Form with FlowMattic Automation tool via webhook integration to automate your workflows.
+    2. AutomatorWP Integration - Connect Bit Form with AutomatorWP Automation tool via webhook integration to automate your workflows.
+    3. Uncanny Automator Integration - Connect Bit Form with Uncanny Automator Automation tool via webhook integration to automate your workflows.
+    4. Automate Hub by Sperse.IO Integration - Connect Bit Form with Automate Hub by Sperse.IO Automation tool via webhook integration to automate your workflows.
+    5. Thrive Automator Integration - Connect Bit Form with Thrive Automator Automation tool via webhook integration to automate your workflows.
+    6. WP Webhooks Integration - Connect Bit Form with WP Webhooks Automation tool via webhook integration to automate your workflows.
+    7. Advanced Form Integration Integration - Connect Bit Form with Advanced Form Automation tool via webhook integration to automate your workflows.
+    8. IFTTT Integration - Connect Bit Form with IFTTT Automation tool via webhook integration to automate your workflows.
+    9. n8n.io Integration - Connect Bit Form with n8n.io Automation tool via webhook integration to automate your workflows.
+    10. SureTriggers Integration - Connect Bit Form with SureTriggers Automation tool via webhook integration to automate your workflows.
+
+*Features:
+    1. Form Abandonment - Automatic Partial Form Submission whenever a user leaves the form without submitting it, Save Form as draft button in Form Builder and conditionally save form as draft via conditional logics with functionality to resume the form from where the user left off. [Pro]
+    2. Pdf Attachment - Attach a pdf file including the form entry data with the email notification. [Pro]
+    3. Writeable action - Conditional logics has an action to make a form field Read only, but was missing the action to revert it. Now, it is possible to make a form field writable again.
+    4. Publicly available functions for developers: getForms & getFields to get all the forms and fields of a form respectively.
+
+*Fixes:
+    1. Form entry edit route 404 issue
+    2. Forms not initializing on Elementor page builder's modal
+    3. Telegram Integration issue regarding multiple uploaded files
+    4. MailerLite Integration timeline log issue
+    5. Zoho workdrive integration next button disabled issue
+    6. Country field default value issue from Conditional Logics
+    7. bitform_dequeue_styles hook issue with form ids
+    8. Deprycated notice from shortcode function if form content is empty
+    9. alt attribute not updating from custom attribute settings
+    10. Addressed the issue of vulnerability of the Bit Form to XSS attacks
+
+= 2.1.0 =
+*Release Date: 4 June, 2023*
+*New Fields:
+    1) Stripe Field - Turn your simple contact form into a payment form with Stripe Field. Collect payments including user information, address with Google Maps autocomplete, and more.
+    2) Section Field - Group the fields into sections to make your advanced & complex forms more organized and easy to fill out.
+*Feature: Form entry edit by admin is now available as it was removed after Bit Form v2.0.
+*Fixes:
+    1) Added missing country regex pattern for phone number field.
+    2) Entry edit form breaks the style after updating the form.
+    3) Zoho Desk authorization button always disabled.
+*Enhancements:
+    1) Generating Frontend JS code based on the embedded forms from client side instead of server side to avoid caching issues.
+    2) Mailer Lite integration has been updated to work with the v2 API.
+    3) Optimized the form builder to handle the large complex forms fastest than ever.
+
+= 2.0.10 =
+*Release Date: May 15, 2023*
+*Features: 
+    1) Added new hooks to dequeue styles and scripts from the page:
+        i) bitform_dequeue_styles
+        ii) bitform_dequeue_scripts
+*Fixes:
+    1) Field key was passed to integrations and email notifications instead of the field value if the field was empty or NULL.
+    2) Style not loading on the frontend if the form is embedded in the page template or header and footer.
+
+= 2.0.9 =
+*Release Date - 6 May 2023*
+*Fixes:
+    1. Phone number field validation has been fixed. It now shows an error message for invalid numbers if no number is entered.
+    2. The unexpected margin issue in the error message P tag has been resolved.
+    3. Select field placeholder option validation has been fixed.
+    4. The TinyMCE WordPress CDN plugin loading issue has been resolved.
+    5. Shortcode counter mismatch causing forms to not work in the frontend has been fixed.
+    6. Regex pattern validation in text fields has been solved.
+
+= 2.0.8 =
+*Release Date - 10 April 2023*
+* Fixes:
+    1. Issues with Pods, meta box, and ACF Ajax requests.
+    2. Hiding and disabling options not working in Country, Currency & Phone number field.
+    3. TinyMCE CDN failing to load for missing plugin name.
+    4. HTML Select field passes required validation with the placeholder option.
+    5. Unexpected <p> tag margin in some error messages.
+    6. Smart tag (post_information) passes empty value in the email template.
+    7. Enabling/disabling the Check/Radio field in conditional logic issue.
+
+= 2.0.7 =
+*Release Date - 27 March 2023*
+* Fixes:
+    1. Fixed the loading of the bitform.js script in the frontend, even if a form is not embedded.
+
+* Improvements:
+    1. The email template now uses the date format based on the WordPress settings.
+
+* Features:
+    1. Added the date format (d-M, Y) in Smart Tags.
+
+= 2.0.6 =
+*Release Date - 19 March 2023*
+* Fixes:
+    1. Fixed Phone number field regex pattern backslash issue.
+    2. Fixed line break tag appearing in email contents issue.
+    3. Fixed decision box checkbox shrinks issue if label is to large.
+    4. Fixed form not saving issue if paypal field subscription enabled.
+
+= 2.0.5 =
+*Release Date - 15 March 2023*
+* Features:
+    1. Gutenberg block of Bit Form now includes Form Id in label for better identification.
+    2. The form submission restrictions are now triggered upon initial loading with an overlay message over the form instead of after submission.
+
+* Fixes:
+    1. Resolved Safari browser compatibility issue with regex pattern lookbehind operator.
+    2. Fixed Firefox browser compatibility issue where form builder caused layout to shift to the bottom of the form.
+    3. Fixed issue with phone number field formatting, validation, and masking.
+    4. Corrected duplicate icon names in the icon library.
+    5. Restored missing fields in workflow actions.
+    6. Added Limit Form Submission period settings to the form settings.
+    7. Fixed Style editor break issue caused by fela.js affecting some users.
+    8. Resolved issue with app settings for PayPal and Razorpay payment gateways not working.
+    9. Fixed issue with re-generating cache in general settings breaking the form.
+    10. Resolved CSS and JS enqueue cache issue.
+    11. Fixed theme gallery issue related to missing slug.
+
+= 2.0.4 =
+*Release Date - 09 March 2023*
+* Fixes:
+    1. Form wrapper style not working in the frontend
+    2. Button label missing in builder right Panel
+    3. Confirmation message error for default tick mark markup
+    4. Custom CSS & JS lost if not visited the builder
+    5. Fallback backgroud color transparent issue
+    6. Plugin uninstall does not remove all the table data based on app config
+
+= 2.0.3 =
+*Release Date - 05 March 2023*
+* Feature: Shortcode support in confirmation message content
+* Fixes:
+    1. Fixed SMTP page blank issue when testing mail
+    2. Resolved SMTP attachment not sending issue
+    3. Fixed field required validation not working due to space in field name
+    4. Resolved JS module conflict with Elementor page builder
+    5. Form validation message color now indicates error or success
+    6. Fixed Textarea field height overlapping with other fields when shown/hidden based on conditions
+    7. Changed confirmation message class names for better readability
+    8. Resolved HTML Select field placeholder issue when no value is set
+    9. Fixed Country field not selecting options when Selected flag image settings is turned off
+
+= 2.0.2 =
+*Release Date - 01 March 2023*
+* Fixes:
+    1. Fix upgrade issue from beta version
+    2. Fix issue with ZOHO CRM integration conflicting with Pro version
+
+= 2.0.1 =
+*Release Date - 01 March 2023*
+* Fixes:
+    1. Update from beta version issue crashes the Bit Form
+    2. Custom fields render issue
+
+= 2.0 =
+*Release Date - 28 February 2023*
+* Version 2 Released*
+
+= 1.9 =
+*Release Date - 16 February 2023*
+* Fixes:
+    1. Bit Form Dashboard crashes for date formatter in latest chromimum browsers.
+    2. Zoho integrations authorization issue for hash based url.
+    3. Unauthenticated Arbitrary File Upload issue fixed by using wordpress default allowed file extensions list.
+
+= 1.8.1 =
+*Release Date - 21 November 2022*
+* Fixes:
+    1.Conditional Logic field logic for null value not working.
+    2.Conditional Logic field action hide not working when page load.
+
+= 1.8 =
+*Release Date - 20 November 2022*
+* Fixes: some minor issues.
+
+= 1.7.3 =
+*Release Date - 6 November 2022*
+*Update: Tested upto wordpress version 6.1
+*Fix: some minor issues
+
+= 1.7.2 =
+*Release Date - 26 September 2022*
+*Feature: Webhook test response & log added in timeline.
+*Fix: Checkbox & Dropdown comma issue in label & value fixed by changing the separator as underscrore.
+
+= 1.7.1 =
+*Release Date - 13 September 2022*
+*Fix: Token expired issue are now completely fixed regardless of any cache plugins.
+
+= 1.7 =
+*Release Date - 13 September 2022*
+*Fix: Token expired issue are now completely fixed regardless of any cache plugins.
+*Fix: Broken YouTube video links are now fixed.
+
+= 1.6.2 =
+*Release Date -19 July 2022*
+*Fix: form not saving on newly installed Bit Form.
+
+= 1.6.1 =
+*Release Date -18 July 2022*
+*Fix: fallback problem.
+
+= 1.6.0 =
+*Release Date - 16 July 2022*
+* Features:
+	1. Form Entry Reports: Filter the responses by conditions & save as report for future entries.
+	2. Double opt-in confirmation: Confirm the entry by email confirmation to prevent the spam & fake emails. 
+	3. Unread, Read, Unconfirmed, Confirmed status of form entry
+		- If double opt-in is enabled, then the default entry status will be Unconfirmed. After confirming the email, it will change to Confirmed.
+		- otherwise, the default entry status is Unread. After clicking on the entry, it will change to Read.
+	4. Logged in User option added in Acf, metabox, pods integration to assign as post author
+	5. IPv6 support in form entries
+
+* Fixes:
+	1. Responses global search not working issue
+	2. replaceAll function not working in old browsers
+	3. merge editted new value with old value when entry edit
+	4. new integrations not working for version mismatch issue
+	5. many more optimizations & misc. fixes under the hood
+
+= 1.5.2 =
+*Release Date - 01 June 2022*
+*Bug Fix:* Fixed the issue with form submission cause of form id mismatch in fastcgi.
+
+= 1.5.1 =
+*Release Date - 28 May 2022*
+* New Integration:
+    1. Twilio Integration
+    2. MailerLite Integration
+* Updates:
+    1. All integrations are now alphabetically sorted for better user experience.
+* Fixes:
+    1. bitform domain slug changed to bit-form for i18n compatibility
+    2. bitform default api key mismatch for the first installation
+    3. email notification & confirmation message line break adds too many gap issue
+    4. textarea field line break issue in email notification
+    5. wp auth custom field value not working issue
+
+= 1.5.0 =
+*Release Date - 10 May 2022*
+* New Integration:
+    1. Groundhogg Integration
+    2. SendFox Integration
+    3. Rapidmail Integration
+    4. Elastic Email Integration
+    5. Getgist Integration
+    6. Hubspot Integration
+* Fixes:
+    1. Decision Box Conditional Logics issue
+    2. Grecaptcha batch hidden style preventing post update issue
+    3. Tinymce hidden & visiable classname issue
+
+= 1.4.21.3 =
+*Release Date - 24 April 2022*
+* New: Acumbamail Integration
+* Fixes:
+    1. Domain URL issue for WordPress in subfolder domain
+    2. Form validation failed for 0 value because of isEmpty() function
+    3. Form entry response count mismatch fix for All Forms page & Form Entries
+    7. Form entry reponse page blank if all the form fields are deleted
+    4. Field entry meta data delete whenever a field gets deleted
+    5. Timeline empty value issue on new field added
+    6. Create form styles directory if not exists during form save
+    8. Line break issue in textarea field for email template
+    9. Telegram message body line break issue
+
+= 1.4.21.2 =
+*Release Date - 03 April 2022*
+* New: Redirect page option added when email verified in WP AUTH. 
+
+
+= 1.4.21.1 =
+*Release Date - 20 March 2022*
+*Fix: Integration clone id mismatch in conditional logics.
+
+= 1.4.21 =
+*Release Date - 19 March 2022*
+* Features:
+    1. New: OneDrive Integration
+    2. Clone / Duplicate Integration
+    3. Smart Tags added in conditional logics & conditions can be set based on smart tags value
+    4. IPv6 support in entry response
+    5. User Role added in Smart Tags
+
+* Fix:
+    1. Razorpay Transaction info re-fetch if missed in log by any chance
+    2. Textarea apostrophe support & value issue
+    3. Smart Tags value mismatch & null in email notification issue
+
+= 1.4.20 =
+*Release Date - 06 March 2022*
+* New: Smart Tags
+    1. Current Date Time 
+    2. Administrator Email
+    3. Date (default format)
+    4. Date (mm/dd/yyyy)
+    5. Date (dd/mm/yyyy)
+    6. Date (Y/m/d)
+    7. Time
+    8. Weekday
+    9. Referer URL
+    10. User IP Address
+    11. Browser Name
+    12. Operating System
+    13. Random Digit
+    14. User ID
+    15. User First Name
+    16. User Last Name
+    17. User Display Name
+    18. User Nice Name
+    19. User Login Name
+    20. User Email
+    21. User URL
+    22. Post Author ID
+    23. Post Author Display Name
+    24. Post Author Email
+    25. Site Title
+    26. Site Description
+    27. Site URL
+    28. WordPress Locale Code
+    29. Embedded Page / Post ID
+    30. Embedded Page / Post Name
+    31. Embedded Page / Post Title
+    32. Embedded Page / Post URL
+    33. Post Publish Date
+    34. Post Modified Date
+
+* Custom Smart Tags:
+    1. URL Query Param 
+    2. Custom Date Time Format
+    3. User Meta Key
+
+*** All Smart Tags are added in Integrations, Email Templates, Conditional Logics, Field Label & Placeholder.
+
+* Fixes:
+    1. Form loader on backend validation of payment button
+    2. Razorpay payment transaction not saved in entry response
+    3. URL Parameter undefined offset index
+
+= 1.4.19 =
+*Release Date - 22 February 2022*
+*Fix: Form entry update not working issue
+*Fix: Fluent CRM tag not selectable issue
+
+= 1.4.18 =
+*Release Date - 13 February 2022*
+* New: Dropbox Integration
+    - Delete file from WordPress after uploading to Dropbox.
+* Update: CSS old browser comptability enriched 
+    - Now supports more old browsers with modern CSS.
+* Fix: ReCaptchav3 not working
+    - Cache plugins conflicting with ReCaptcha Api Script is solved.
+
+= 1.4.17 =
+*Release Date - 26 January 2022*
+* New: Autonami Integration (Contact Module)
+* Update: Form validations of frontend & server before payment transaction
+
+= 1.4.16.2 =
+*Release Date - 15 January 2022*
+* Fix: Form not submitting for browser incompatibility issue
+
+= 1.4.16.1 =
+*Release Date - 15 January 2022*
+* Fix: Telegram Message Body TinyMCE issue
+* Fix: Email field validation issue
+
+= 1.4.16 =
+*Release Date - 10 January 2022*
+1. Update: Username field placeholder added
+2. Fix: Text editor value reset issue
+3. Fix: Form response page blank issue
+4. Fix: Bitform API returns null value in response
+* Many more small fixes & tweaks
+
+= 1.4.15.1 =
+*Release Date - 09 December 2021*
+* Fix: Unique Field Error Fallback.
+
+= 1.4.15 =
+*Release Date - 05 December 2021*
+* Fix: Edit Entry Form not showing in Firefox.
+* Fix: Form Validation issues.
+* Fix: Post Excerpt typo.
+* Many more small fixes & tweaks.
+
+= 1.4.14.2 =
+*Release Date - 29 September 2021*
+* Fixes : GCLID (Google Click ID) problem.
+
+= 1.4.14.1 =
+*Release Date - 21 September 2021*
+* Fixes : PHP older version syntax error resolve.
+
+= 1.4.14 =
+*Release Date - 19 September 2021*
+*Features:
+1. (New) WP Auth: 
+    i. Registration -
+        1. Auto Login after registration
+        2. Approval System: a. Auto, b. Admin Review, & c. Email Activation
+        3. WordPress Email Notification (Admin & User)
+        4. User Meta Field Mapping
+    ii. Login with Bit Form
+    iii. Forgot Password - 1. Custom Email Template
+    iv. Reset Password
+    * Redirect Page customization on each section
+
+2. Form Settings:
+    i. Required user to be logged in for submit form
+    ii. Empty form submission disallow
+    iii. Disable entry storing in Database & Bit Form
+
+3. Form Fields:
+    i. (New) Username - unique WordPress user name validation
+    ii. Email - unique WordPress user email validation
+    iii. Password - encrypted by default on WP user management
+    iv. Unique entry - Text, username, multi text, checkbox, radio, number, dropdown, country, email, url, date, color picker
+
+4. Field required asterisk class name 'fld-req-symbol' added.
+
+* Fixes & Improvements:
+1. Responsive device button fix
+2. Admin notice hides on all pages which should be only on bitform page fix
+
+= 1.4.13.1 =
+*Release Date - 16 August 2021*
+Fix: Form Entry Responses page blank issue
+
+= 1.4.13 =
+*Release Date - 16 August 2021*
+Updates:
+1. User ID, IP, refer url, device, created at & updated at data in form responses
+2. Razorpay auto capture payments
+3. Encharge Integration Tags
+
+Fixes:
+1. Tinymce server 404 error
+2. Email field long domain validation issue
+3. PayPal long decimal point issue
+4. Multiple value separated by comma instead of space
+
+= 1.4.12.2 =
+*Release Date - 11 July 2021*
+Fix: File upload max size and error message resolve
+Update: Preset Options added (State: BR, CN, RO, RU)
+
+= 1.4.12.1 =
+*Release Date - 07 July 2021*
+Fix: Razorpay pre-fill info fix
+
+= 1.4.12 =
+*Release Date - 06 July 2021*
+Features: 
+1. Meta Box integration
+2. ActiveCampaign integrations feature ( list and tags ) 
+3. File Upload Fields & Buttons in conditional logics
+4. ACF field in import options
+5. Import options (Users,Posts,Terms,ACF field option) now can be edited 
+6. Ctrl + S to Save/Update form
+
+* Fixes and Improvements:
+1. Form confirmation message can be customizable via CSS.
+2. Style issue (google sheets, mail chimp, active campaign, mail poet)
+3. Razorpay & PayPal dynamic amount from Radio field
+4. HTML fields editor not showing up for more than 1 fields.
+5. Hidden fields required validation
+6. Multiple conditional logics reset field value.
+
+= 1.4.11 =
+*Release Date - 17 June 2021*
+* Fix: Email field validation fix
+* Fix: Payment integration issue with latest update
+* Fix: PHP version issue
+
+= 1.4.10 =
+*Release Date - 16 June 2021*
+* Fix: Checkbox validation fix
+* Fix: Export Issue
+
+= 1.4.9 =
+*Release Date - 14 June 2021*
+* Feature: Checkbox & Radio minimum maximum option added
+* Fix: Multiple form validation fix on same page
+
+= 1.4.8 =
+*Release Date - 10 June 2021*
+*Feature:
+    1. PayPal & Razorpay as a form submit button
+    2. Field Label Show/Hide
+    3. Field Validations
+        i) Required
+        ii) Invalid
+        iii) Password
+            * At least one digit (0-9)
+            * At least one lowercase character (a-z)
+            * At least one uppercase character (A-Z)
+            * At least one special character
+            * Limit Password Length
+        iv) Custom Regex Pattern & Predefined Patterns
+            * Only Characters (a-zA-Z)
+            * Only Digits (0-9)
+            * Name - only characters & space
+            * Username - only lowercase characters & numbers
+            * Character Limit - default is set to a maximum of 100 characters
+            * Word Limit - default is set to a maximum of 30 words
+            * Only Gmail - only allows Gmail address
+        v) Custom Error Message
+        vi) Error Message Show/Hide
+        vii) Validate Form Input on Focus Lost
+    4. Import Dynamically WordPress Users, Posts, & Taxonomy
+    5. ACF Integration
+*Fix:
+    1. API Workflow Remove
+    2. many more small tweaks & performance improvement
+
+= 1.4.7 =
+*Release Date - 29 May 2021*
+* Fix: PayPal & Razorpay dynamic field value issue solved.
+
+= 1.4.6 =
+*Release Date - 27 May 2021*
+* Feature:
+    1. Country field added
+    2. Import options added for Checkbox, Radio & Dropdown [6 type of files & 32 presets]
+        * File Types:
+            i. txt (comma, space, new line & clone separated)
+            ii. json (array, object, array of object & array of objects)
+            iii. xls & xlsx (single & multi sheet)
+            iv. csv & tsv
+    3. MailChimp integration double opt-in added
+* Fix: Dynamic Field in PayPal & RazorPay cause dramatic error is solved.
+* Enhancement: add values in field using custom script & URL parameters doesn't reset anymore.
+
+= 1.4.5 =
+*Release Date - 9 May 2021*
+* Feature: prevent spam Bot using Honeypot during contact form submission
+* Fix: Authorization is not working for new Integration
+* Enhancement: Readonly attributes for fields using conditional logic
+
+= 1.4.4 =
+*Release Date - 4 May 2021*
+* Feature: Integration for FluentCRM
+* Feature: Integration for Telegram
+* Feature: Integration for Pods
+* Enhancement: Now will be able add **FROM address** in mail sending
+
+= 1.4.3 =
+* Fix: Stripslashes on email body
+
+= 1.4.2 =
+* Fix: File url link on export entry
+
+= 1.4.1 =
+* ReCaptcha v3:  ReCaptcha v3 can protect your form from bot & spamming. Config your ReCaptcha; go to form settings, enable the ReCaptchav3.
+* Form Builder:
+    1. Add Custom Button
+    2. Button Color Change
+
+= 1.3.13 =
+* Feature: HTML Field
+* Feature: Email Attachment
+* Fix: paypal dynamic amount does not change
+* Fix: recaptcha v2 bypass issue if js disabled
+
+= 1.3.12 =
+* Feature: ActiveCampaign integration
+* Fix: mail validation issue on large tlds
+
+= 1.3.11 =
+* Integrations:
+  * New: 1. SendinBlue Integration - create/edit contact
+  * Update: 1. WooCommerce Integration - External/Affiliate product can be added
+            2. Zoho Recruit Integration - zip/post code fixed
+* Features: Search box added for Integrations
+* Fixes:
+    1. Decision Box label issue fix
+    2. Integ info added for integrations
+    3. Tinymce issue fix
+    4. Add Conditional Button issue fix in free version
+    5. field map layout broken fix in integration
+    6. Api response copy issue fix in timeline
+    7. File upload issue fix in Bit Form Rest API
+
+= 1.3.10 =
+* Feature: WooCommerce Integration - Create/Edit WooCommerce Product/Customer from Bit Form.
+
+= 1.3.8 =
+* Fix: long text wrap on label removed
+* Fix: recruit attachment issue
+
+= 1.3.7 =
+* Fix: decision box label empty after update
+* Fix: domain url truncate issue in email template
+
+= 1.3.6 =
+* Fix: file upload
+* Feature: replay to added on mail send
+* Feature: code preview added on mail template editor
+
+= 1.3.5 =
+* Fix: issues email in  mulitple workflow. After changing workflow execution process.
+
+= 1.3.4 =
+* Fix: Form Builder style cache issue.
+* Fix: JS conflict with cache optimization plugins.
+* Fix: Date format issue.
+* Feature: Mailchimp integration
+
+= 1.3.2 =
+* Fix: Form Entry id added to callback url
+
+= 1.3.1 =
+* Fixes:
+    API issue
+    CPT title
+    option deleted
+    uninstallation bitform
+
+= 1.3 =
+* Features:
+    1. Form Builder:
+        i) Payment App Config
+    2. Integrations:
+        i) CPT (Custom Post Types)
+        ii) Google Sheet Integration
+* Fixes:
+    1. Timeline Integration Response (On first submit & entry edit)
+    2. Radio Button Conditional Logics issue fix
+    3. Zoho Projects Integration timelog issue fixed
+    some minor fixes...
+
+= 1.2 =
+* Bug fix
+* SMTP frontend updated
+
+= 1.1.8 =
+* Fix: file upload issue
+* Feature: Api secret key
+
+= 1.1.7 =
+* Fix: minor issues in API
+* Fix: dropdown not showing in the form when i18n disabled
+
+= 1.1.6 =
+* Feature:
+    Rest APi Added
+
+= 1.1.5 =
+* Feature:
+   1. Form Builder - Field Added
+	- Razorpay: we have added the Razorpay payment field in our form builder. You can drag and drop the Razorpay field and use it with your preferred choices. We have added as much as possible functionalities and customizations.
+* Update: Decision Box icon updated.
+* Fix: Minor issues has been fixed.
+
+= 1.1.4 =
+* Fix: Accessibility Improved in form fields
+* Feature:
+   1. Form Builder - New Field
+	- Decision Box: the decision box is added to take agreement or acceptance of any statement by checking the decision box field.
+
+= 1.1.3 =
+* Fix: form style url protocol mismatch
+
+= 1.1.2 =
+* Fix: form field label and admin label null issue, now if both are empty field key will be shown
+* Update: Frontend form submit toast design changed
+
+= 1.1.1 =
+* Fix: Email editor fallback issue
+
+= 1.1 =
+* Feature:
+    1. SMTP: you can send mail by your preferred email to your user from the contact form with smtp support. to config the SMTP, you have to go all forms page, then go to settings->SMTP Settings. you can test the mail settings under the config section.
+
+= 1.0.10 =
+* Fix: Oxygen Page Builder render issues
+
+= 1.0.9 =
+* New Features:
+    1. PayPal field: we have added the PayPal payment field in our contact form builder. You can drag and drop the PayPal field and use it with your preferred choices. We have added as much as possible functionalities and customizations.
+    2. GCLID: to enable capturing GCLID in Bit Form, just go to your form->settings->Form Settings->turn on the capture GCLID.
+    3. Export entries: you can export your form entries as the file format of: (CSV, Xls, Xlsx, Ods, Fods, Prn, Text, Html and Eth) with conditional cases of entries.
+    4. Localization: We have fixed the localization issues, now the string is dynamic as it will be translated according to the language preferences.
+* Fixes:
+    1. Admin Label null fix in form builder
+    2. Oxygen Page Builder render fix: Bit Form had some issues with Oxygen Page Builder compatibility. We have fixed those issues, now it renders the admin manager and front end form as it should be.
+    3. Dropdown Close on Select: now the dropdown menu will be closed after selecting the value, before user had to close it manually.
+
+= 1.0.8 =
+* Fixed reCaptcha position issue
+* Fixed fileupload field icon
+
+= 1.0.7 =
+* Timeline view changed related info
+* Notes feature added on form response
+* Fixed some minor issues
+
+= 1.0.6 =
+* Fix issues on form entry timeline view
+
+= 1.0.5 =
+* Form Builder:
+    1. Unlimited Field:
+    # previously, in free version only 05 (five) field was allowed, but now it is unlimited. you can use as much field as your need and there won't be any limitation.
+    2. All Field: Admin Label
+    # Admin can now set a admin side label for a field and it will be used as display label for entire backend application.
+    3. Dropdown: Allow Other Option
+    # Dropdown can now allow for custom option which users will be able to create them in the submission session.
+* Form Responses:
+    1. Timeline:
+    # after each form submission or entry update a log will be creating from now on and admin will be able to view those log with from previous value to updated value in timeline section.
+* Form Settings:
+    1. all Form Field Name sorted
+    2. Conditional Logics:
+    # Workflow is now changed to conditional logics, not only the name we have changed so many insider features out of the box such as -
+    2.1. if we select checkbox, radio or dropdown as form fields the value section will formed into a dropdown where all the existing options will be generated and you can also add a custom option for check.
+    2.2. in logic part, we have two new additional logic as - a. Contain All (it checks if all the values contains or not in field), b. Not Contain (it checks if any of the values doesn't contain)
+    3. Integrations:
+        1. new integrations:
+        - Zoho Sign Integration
+        - Zoho Marketing Hub Integration
+        - Zoho Creator Integration
+        2. Integration Info:
+        # info button added for all integrations, where you can check your credentials of integration api connection
+
+= 1.0.4 =
+* Fixed form submittion issues, if field label includes "."
+
+= 1.0.3 =
+* form submit button broken style fixed
+* Fixed minor issues
+
+= 1.0.2 =
+* Assets updated for corrupted image
+* Fixed minor issues
+
+= 1.0.1 =
+* readme updated
+
+= 1.0.0 =
+* Initial release of bit-form, the brand new contact form builder for wordpress

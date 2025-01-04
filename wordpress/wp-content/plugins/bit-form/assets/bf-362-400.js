@@ -1,0 +1,1 @@
+import{j as e}from"./main-601.js";function n({note:s}){return e.jsxs("div",{className:"note",children:[e.jsx("h4",{className:"mt-0",children:"Note"}),e.jsx("div",{className:"note-text",dangerouslySetInnerHTML:{__html:s}})]})}export{n as N};
