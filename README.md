@@ -1,9 +1,9 @@
 # E Learning Website - LearnSphere
-[<img src='https://github.com/munaimpro/e-learning-website/blob/main/e-learning-website-cover.png?raw=true' alt='E Learning Website - LearnSphere' style='width:100%'>](https://github.com/munaimpro/e-learning-website/)<br/><br/>
+[<img src='https://github.com/munaimpro/e-learning-website/blob/main/e-learning-website-cover.PNG?raw=true' alt='E Learning Website - LearnSphere' style='width:100%'>](https://github.com/munaimpro/e-learning-website/)<br/><br/>
 
 
 ## 📔 Description
-This is a WordPress-based E-Learning platform designed to simplify online education and course management. The system features a user-friendly interface built with Elementor, offering responsive design and interactive features that enhance the learning experience. It allows instructors to create courses effortlessly using Tutor LMS and provides robust tools for managing enrollments. The backend utilizes MySQL for efficient data storage and retrieval, ensuring seamless operation. This platform aims to provide a convenient and effective solution for both educators and learners, fostering a dynamic and engaging online learning environment.<br/><br/>
+This is a WordPress E-Learning platform designed to simplify online education and course management. The system features a user-friendly interface built with Elementor, offering responsive design and interactive features that enhance the learning experience. It allows instructors to create courses effortlessly using Tutor LMS and provides robust tools for managing enrollments. The backend utilizes MySQL for efficient data storage and retrieval, ensuring seamless operation. This platform aims to provide a convenient and effective solution for both educators and learners, fostering a dynamic and engaging online learning environment.<br/><br/>
 
 ## 💡 Technology
 - Frontend Language: HTML, CSS, JavaScript
